@@ -32,8 +32,8 @@ steps:
     arguments: '--no-build --configuration $(buildConfiguration)'
     versioningScheme: byPrereleaseNumber
     majorVersion: '2'
-    minorVersion: '0'
-    patchVersion: '0'
+    minorVersion: '2'
+    patchVersion: '3'
  
 - task: NuGetCommand@2
   displayName: 'Publish NuGet package'
